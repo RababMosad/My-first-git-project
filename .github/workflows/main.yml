@@ -1,7 +1,7 @@
 on:
  push:
   branches:
-   -master
+   - master
 
 
 
@@ -11,10 +11,10 @@ jobs:
  build:
    runs-on: ubuntu-latest
 
-   steps:
-    -name: 'Testing github action'
-     run: pwd
+    steps:
+     - name: 'Testing github action'
+       run: pwd
 
 
-    -name: 'Testing printing'
-      run: echo task
+     - name: 'Testing printing'
+       run: echo task
