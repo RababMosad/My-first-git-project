@@ -1,5 +1,5 @@
 FROM openjdk
 WORKDIR /task
-COPY task.java .
+COPY Task.java .
 RUN javac task.java
 CMD java task
